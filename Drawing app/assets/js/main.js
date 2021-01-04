@@ -37,7 +37,6 @@ function stop () {
 function clearCanvas () {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 }
-
 window.addEventListener('resize', resizeCanvas);
 function resizeCanvas () {
   canvas.width = window.innerWidth;
